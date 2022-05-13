@@ -1,0 +1,51 @@
+.navigator {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.navigator ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    position: absolute;  
+}
+
+.controller_button {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.controller_button:hover, .controller_button.active {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.navigator::before {
+    content: '';
+    /* background-image: url('../../assets/img/icons/spider.svg'); */
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.navigator_icon {
+    position: absolute;
+    top: -18px;
+    width: 2.5rem;
+}
