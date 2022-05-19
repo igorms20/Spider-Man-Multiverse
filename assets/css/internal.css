@@ -2,6 +2,8 @@
 @import url('global.css');
 @import url('./components/navigator.css');
 @import url('./components/pills.css');
+@import url('./components/link-button.css');
+@import url('./components/gallery.css');
 
 .wrapper {
     display: flex;
@@ -51,10 +53,68 @@
 }
 
 .wrapper .main-content-top .description {
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.435);
-    padding: 2rem;
-    border-radius: 12px;
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
     
 }
 
+.wrapper .main-content-top .description .pills {
+    margin-bottom: 20px;
+}
+
+.wrapper .main-content-top .description .description-text p {
+    color: white;
+    line-height: 170%;
+}
+
+.wrapper .main-content-top .links ul {
+    display: flex;
+    margin-top: 1rem;
+}
+
+/* .gallery {
+    margin-bottom: 3rem;
+} */
+
+/* Classes para cada filme de cada Spider-Man */
+.spiderman-tobey-01 {
+    background-image: url('../img/spiderman-tobey/movie-01/background.png');
+    background-size: cover;
+}
+
+.spiderman-tobey-02 {
+    background-image: url('../img/spiderman-tobey/movie-02/background.png');
+    background-size: cover;
+}
+
+.spiderman-tobey-03 {
+    background-image: url('../img/spiderman-tobey/movie-03/background.png');
+    background-size: cover;
+}
+
+.spiderman-tom-01 {
+    background-image: url('../img/spiderman-tom/movie-01/background.png');
+    background-size: cover;
+}
+
+.spiderman-tom-02 {
+    background-image: url('../img/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+}
+
+.spiderman-tom-03 {
+    background-image: url('../img/spiderman-tom/movie-03/background.png');
+    background-size: cover;
+}
+
+.spiderman-andrew-01 {
+    background-image: url('../img/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+}
+
+.spiderman-andrew-02 {
+    background-image: url('../img/spiderman-andrew/movie-02/background.jpg');
+    background-size: cover;
+}
