@@ -14,7 +14,7 @@
     position: absolute;  
 }
 
-.controller_button {
+.controller-button {
     color: white;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
     font-weight: bold;
 }
 
-.controller_button:hover, .controller_button.active {
+.controller-button:hover, .controller-button.active {
     background-color: white;
     color: var(--primary-color);
 }
@@ -44,7 +44,7 @@
     z-index: 0;
 }
 
-.navigator_icon {
+.navigator-icon {
     position: absolute;
     top: -18px;
     width: 2.5rem;
