@@ -33,5 +33,9 @@ function selectCarouselItem(selectedElement) {
 
     carousel.style.transform = newTransform
     console.log(newTransform)
+
+    const activeButton = document.querySelector('.controller_button--active')
+    activeButton.classList.remove('controller_button--active')
+    selectedElement.classList.add('controller_button--active')
     
 }
