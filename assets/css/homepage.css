@@ -1,5 +1,5 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
+@import url('./assets/css/reset.css');
+@import url('./assets/css/global.css');
 
 body {
     background-color: var(--primary-color);
@@ -8,7 +8,7 @@ body {
 /* Configurando a imagem de fundo (padrão) */
 body::before {
     content: "";
-    background-image: url('/assets/img/spider-man-background.jpg');
+    background-image: url('./assets/img/spider-man-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -175,15 +175,15 @@ body::before {
 
 /* Alterando o background conforme o card que está com hover */
 body#cardTM__hovered::before {
-    background-image: url('/assets/img/pic-sm-bg-01.jpg');
+    background-image: url('./assets/img/pic-sm-bg-01.jpg');
 }
 
 body#cardTH__hovered::before {
-    background-image: url('/assets/img/pic-sm-bg-02.jpg');
+    background-image: url('./assets/img/pic-sm-bg-02.jpg');
 }
 
 body#cardAG__hovered::before {
-    background-image: url('/assets/img/pic-sm-bg-03.jpg');
+    background-image: url('./assets/img/pic-sm-bg-03.jpg');
 }
 
 /* Seletor para selecionar elemento que começa com a string especificada */
